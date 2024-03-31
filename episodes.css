@@ -1,0 +1,17 @@
+header button.dropdown-toggle {
+  background-color: #2d2e37;
+  width: 300px;
+}
+
+.dropdown-item:hover {
+  background-color: #198754;
+}
+
+.episode-card {
+  background-color: #2d2e37;
+  border: 0.5rem solid #1d1e29;
+}
+
+.h-176 {
+  height: 176px !important;
+}

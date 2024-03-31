@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV SHOW</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./episodes.css" />
+  </head>
+  <body>
+    <header
+      class="container-personalized container-md sticky-top d-flex align-items-center justify-content-between text-white pt-2"
+    >
+      <div class="header-logo">
+        <a
+          href="./index.html"
+          class="text-decoration-none text-white"
+          title="Home"
+        >
+          <h1 class="fs-2"><span class="text-success">TV</span>SHOW</h1>
+        </a>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="dropdown dropdown-center o">
+          <button
+            class="dropdown-toggle text-white me-3 border-0 px-3 py-1 rounded-5 d-flex align-items-center justify-content-between"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            All Episodes
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark w-100 overflow-hidden">
+            <li><a class="dropdown-item fs-7" href="#">All Episodes</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-play-circle-fill fs-1 text-success"></i>
+      </div>
+    </header>
+    <main class="container-personalized container-md">
+      <div class="cards-container row d-flex justify-content-center"></div>
+    </main>
+    <nav
+      class="side-nav position-fixed top-0 left-0 h-100 d-flex flex-column justify-content-center p-4 d-none d-md-flex"
+    >
+      <a
+        href="./index.html"
+        class="home d-flex flex-column align-items-center justify-content-center text-success text-decoration-none my-4"
+      >
+        <i class="bi bi-house-door-fill fs-4"></i>
+        <span class="fs-7">Home</span>
+      </a>
+      <a
+        href="#"
+        class="trending d-flex flex-column align-items-center justify-content-center text-white-50 text-decoration-none my-4"
+      >
+        <i class="bi bi-fire fs-5"></i>
+        <span class="fs-7">Trending</span>
+      </a>
+      <a
+        href="#"
+        class="favourite d-flex flex-column align-items-center justify-content-center text-white-50 text-decoration-none my-4"
+      >
+        <i class="bi bi-heart fs-5"></i>
+        <span class="fs-7">Favourite</span>
+      </a>
+      <a
+        href="#"
+        class="login d-flex flex-column align-items-center justify-content-center text-white-50 text-decoration-none my-4"
+      >
+        <i class="bi bi-person-circle fs-5"></i>
+        <span class="fs-7">Login</span>
+      </a>
+    </nav>
+    <footer class="text-center my-5">
+      <a href="#"><i class="bi bi-linkedin mx-3 text-white"></i></a>
+      <a href="#"><i class="bi bi-github mx-3 text-white"></i></a>
+      <a href="#"><i class="bi bi-telegram mx-3 text-white"></i></a>
+      <a href="#"><i class="bi bi-instagram mx-3 text-white"></i></a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./episodes.js"></script>
+    <script src="./episodes-actions.js"></script>
+  </body>
+</html>

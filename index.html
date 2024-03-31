@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV SHOW</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header
+      class="container-personalized container-md sticky-top d-flex align-items-center justify-content-between text-white pt-2"
+    >
+      <div class="header-logo">
+        <a
+          href="./index.html"
+          class="text-decoration-none text-white"
+          title="Home"
+        >
+          <h1 class="fs-2"><span class="text-success">TV</span>SHOW</h1>
+        </a>
+      </div>
+      <div class="header-search-box d-flex align-items-center">
+        <div
+          class="search-input-wrapper d-flex align-items-center me-3 pe-3 ps-3 pt-1 pb-1 rounded-pill"
+        >
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search movie"
+            class="bg-transparent border-0 text-white pe-2"
+            title="Search"
+          />
+          <i class="bi bi-search"></i>
+        </div>
+        <i class="bi bi-play-circle-fill fs-1 text-success"></i>
+      </div>
+    </header>
+    <main class="container-personalized container-md">
+      <div class="main-banner mb-4">
+        <img
+          src="./IMGs/banner-img.jpg"
+          alt="banner image"
+          class="w-100 rounded"
+        />
+      </div>
+
+      <div class="movies-container w-100">
+        <h2 class="text-white fs-5 lh-1 p-3 rounded-1">Movies</h2>
+
+        <div class="movies-cards row p-1 d-flex justify-content-center"></div>
+      </div>
+    </main>
+    <nav
+      class="side-nav position-fixed top-0 left-0 h-100 d-flex flex-column justify-content-center p-4 d-none d-md-flex"
+    >
+      <a
+        href="./index.html"
+        class="home d-flex flex-column align-items-center justify-content-center text-success text-decoration-none my-4"
+      >
+        <i class="bi bi-house-door-fill fs-4"></i>
+        <span class="fs-7">Home</span>
+      </a>
+      <a
+        href="#"
+        class="trending d-flex flex-column align-items-center justify-content-center text-white-50 text-decoration-none my-4"
+      >
+        <i class="bi bi-fire fs-5"></i>
+        <span class="fs-7">Trending</span>
+      </a>
+      <a
+        href="#"
+        class="favourite d-flex flex-column align-items-center justify-content-center text-white-50 text-decoration-none my-4"
+      >
+        <i class="bi bi-heart fs-5"></i>
+        <span class="fs-7">Favourite</span>
+      </a>
+      <a
+        href="#"
+        class="login d-flex flex-column align-items-center justify-content-center text-white-50 text-decoration-none my-4"
+      >
+        <i class="bi bi-person-circle fs-5"></i>
+        <span class="fs-7">Login</span>
+      </a>
+    </nav>
+    <footer class="text-center my-5">
+      <a href="#"><i class="bi bi-linkedin mx-3 text-white"></i></a>
+      <a href="#"><i class="bi bi-github mx-3 text-white"></i></a>
+      <a href="#"><i class="bi bi-telegram mx-3 text-white"></i></a>
+      <a href="#"><i class="bi bi-instagram mx-3 text-white"></i></a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
